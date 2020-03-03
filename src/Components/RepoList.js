@@ -31,6 +31,9 @@ class RepoList extends Component{
                 <td>{org.language}</td>
                 <td>{org.open_issues}</td>
                 <td>{org.forks}</td>
+                <td>
+                    <button className='btn btn-primary' type='button'>Pull Requests</button>
+                </td>
             </tr>
         ));
         
@@ -50,6 +53,7 @@ class RepoList extends Component{
                             <td>Language</td>
                             <td>Open Issues</td>
                             <td>Forks</td>
+                            <td>.....</td>
                         </tr>
                     </thead>
                     <tbody>
